@@ -1,6 +1,8 @@
-# College Counselor
+# Beacon
 
-A Claude Code skill that guides high school students through the complete 4-year college application journey — from freshman-year interest discovery through senior-year decisions. 12 commands covering interest elicitation, academic planning, extracurricular spike strategy, standardized testing, college list building, Socratic essay coaching, application strategy, financial aid, and summer planning. It uses Motivational Interviewing techniques, tracks milestones against a grade-aware timeline engine, and maintains persistent state across sessions so nothing falls through the cracks. Not a generic advice bot. An adaptive counselor that meets students where they are and gets sharper the longer you use it.
+An AI college counselor that guides high school students through the complete 4-year college application journey — from freshman-year interest discovery through senior-year decisions.
+
+12 commands covering interest elicitation, academic planning, extracurricular spike strategy, standardized testing, college list building, Socratic essay coaching, application strategy, financial aid, and summer planning. Beacon uses Motivational Interviewing techniques, tracks milestones against a grade-aware timeline engine, and maintains persistent state across sessions so nothing falls through the cracks. Not a generic advice bot. An adaptive counselor that meets students where they are and gets sharper the longer you use it.
 
 Say `kickoff`, share your grade level, and you're being counseled in under 2 minutes.
 
@@ -31,13 +33,13 @@ Say `kickoff`, share your grade level, and you're being counseled in under 2 min
 1. Clone the repo:
 
 ```bash
-git clone https://github.com/yourusername/college-counselor-skill.git
-cd college-counselor-skill
+git clone https://github.com/yourusername/beacon.git
+cd beacon
 ```
 
 Or download it as a ZIP and unzip.
 
-2. Activate the counselor by renaming the skill file:
+2. Activate Beacon by renaming the skill file:
 
 ```bash
 mv SKILL.md CLAUDE.md
@@ -49,7 +51,7 @@ Requires any paid Claude plan. Also works with Claude Code (terminal), Cursor, o
 
 ---
 
-The counselor will ask for your grade level, school, interests, and goals -- then build your profile, check your timeline, and give you a prioritized action plan. Everything saves automatically to `counseling_state.md` so you pick up where you left off next session.
+Beacon will ask for your grade level, school, interests, and goals -- then build your profile, check your timeline, and give you a prioritized action plan. Everything saves automatically to `counseling_state.md` so you pick up where you left off next session.
 
 ---
 
@@ -125,7 +127,7 @@ Map those interests to an academic track and build your course sequence. Then:
 activities
 ```
 
-Find your spike area and start building extracurricular depth. The counselor walks you through this sequence naturally and recommends the next step after each command.
+Find your spike area and start building extracurricular depth. Beacon walks you through this sequence naturally and recommends the next step after each command.
 
 ### 2) "I need to start my college applications"
 
@@ -133,7 +135,7 @@ Find your spike area and start building extracurricular depth. The counselor wal
 kickoff
 ```
 
-Set up your profile (or the counselor picks up from your existing state). Then:
+Set up your profile (or Beacon picks up from your existing state). Then:
 
 ```text
 schools
@@ -151,7 +153,7 @@ Map out your application strategy -- ED/EA/RD decisions, recommendation letter a
 essays
 ```
 
-Socratic essay coaching for your personal statement and supplementals. The counselor helps you find your story through questions, not templates.
+Socratic essay coaching for your personal statement and supplementals. Beacon helps you find your story through questions, not templates.
 
 ### 3) "Am I on track?"
 
@@ -159,7 +161,7 @@ Socratic essay coaching for your personal statement and supplementals. The couns
 review
 ```
 
-Full progress check against the timeline engine. You get milestone-by-milestone status (ahead, on-track, coming-up, behind), a section-by-section profile assessment, and the top 3 actions to focus on right now. The counselor frames overdue milestones as opportunities, not failures.
+Full progress check against the timeline engine. You get milestone-by-milestone status (ahead, on-track, coming-up, behind), a section-by-section profile assessment, and the top 3 actions to focus on right now. Beacon frames overdue milestones as opportunities, not failures.
 
 ### 4) "Help me with my essay"
 
@@ -167,42 +169,42 @@ Full progress check against the timeline engine. You get milestone-by-milestone 
 essays
 ```
 
-The counselor checks whether you have a narrative thread (from `discover` and `activities`). If you do, it uses that foundation to guide essay brainstorming. If you don't, it walks you through interest discovery first so your essay connects to a real story. All coaching is Socratic -- questions and anonymized examples, never drafting content for you.
+Beacon checks whether you have a narrative thread (from `discover` and `activities`). If you do, it uses that foundation to guide essay brainstorming. If you don't, it walks you through interest discovery first so your essay connects to a real story. All coaching is Socratic -- questions and anonymized examples, never drafting content for you.
 
 ---
 
 ## How It Works
 
-**Session state** -- The counselor maintains a persistent `counseling_state.md` file that tracks your profile, interest discovery results, academic track, activities, testing, college list, essay progress, financial aid status, summer plans, recommendations, timeline milestones, coaching notes, and active counseling strategy. At the start of each session, it reads this file and picks up where you left off. Saves happen automatically after every major workflow -- not just at session end.
+**Session state** -- Beacon maintains a persistent `counseling_state.md` file that tracks your profile, interest discovery results, academic track, activities, testing, college list, essay progress, financial aid status, summer plans, recommendations, timeline milestones, coaching notes, and active counseling strategy. At the start of each session, it reads this file and picks up where you left off. Saves happen automatically after every major workflow -- not just at session end.
 
-**Timeline engine** -- A milestone database organized by grade level and season (freshman fall through senior spring). Every session, the counselor checks your current position against the timeline and surfaces what's coming up, what's on track, and what needs attention. Recommendations are always grounded in where you actually are, not a generic checklist.
+**Timeline engine** -- A milestone database organized by grade level and season (freshman fall through senior spring). Every session, Beacon checks your current position against the timeline and surfaces what's coming up, what's on track, and what needs attention. Recommendations are always grounded in where you actually are, not a generic checklist.
 
-**Socratic approach** -- The counselor never writes application content for the student. Essays, activity descriptions, and personal statements are guided through questions. Anonymized strong examples are available for illustration, but the student's voice stays their own. This is enforced as a non-negotiable operating rule.
+**Socratic approach** -- Beacon never writes application content for the student. Essays, activity descriptions, and personal statements are guided through questions. Anonymized strong examples are available for illustration, but the student's voice stays their own. This is enforced as a non-negotiable operating rule.
 
-**Motivational Interviewing voice** -- Open-ended questions (70%+ of all questions), affirmations, reflective listening, and rolling with resistance. "I don't know" is always a valid answer -- it's information, not failure. The counselor adapts its directness level (1-5) based on the student's preference, but the underlying assessment never changes.
+**Motivational Interviewing voice** -- Open-ended questions (70%+ of all questions), affirmations, reflective listening, and rolling with resistance. "I don't know" is always a valid answer -- it's information, not failure. Beacon adapts its directness level (1-5) based on the student's preference, but the underlying assessment never changes.
 
-**Grade-aware adaptation** -- The counselor's tone, urgency, and command recommendations shift based on grade level. Freshmen get exploration mode with low pressure. Sophomores get building mode with emerging direction. Juniors get action mode with clear timeline urgency. Seniors get execution mode with specific deadlines.
+**Grade-aware adaptation** -- Beacon's tone, urgency, and command recommendations shift based on grade level. Freshmen get exploration mode with low pressure. Sophomores get building mode with emerging direction. Juniors get action mode with clear timeline urgency. Seniors get execution mode with specific deadlines.
 
 ---
 
 ## Important Notes
 
-**AI, not a human counselor.** This skill supplements school counselors, parents, and professional advisors. It never replaces them. The counselor is transparent about being an AI in every interaction.
+**AI, not a human counselor.** Beacon supplements school counselors, parents, and professional advisors. It never replaces them. Beacon is transparent about being an AI in every interaction.
 
-**Socratic only for all student writing.** The counselor will never draft essays, activity descriptions, or any application content. It guides through questions and shows anonymized examples. The student's voice must be their own.
+**Socratic only for all student writing.** Beacon will never draft essays, activity descriptions, or any application content. It guides through questions and shows anonymized examples. The student's voice must be their own.
 
-**Safety protocol.** If any input contains crisis signals (self-harm, abuse, suicidal ideation), the counselor immediately surfaces professional resources (988 Suicide & Crisis Lifeline, school counselor, therapist) and pauses the current workflow. It never diagnoses, never attempts therapy, and never labels a student with any condition.
+**Safety protocol.** If any input contains crisis signals (self-harm, abuse, suicidal ideation), Beacon immediately surfaces professional resources (988 Suicide & Crisis Lifeline, school counselor, therapist) and pauses the current workflow. It never diagnoses, never attempts therapy, and never labels a student with any condition.
 
 **Equity check always active.** Trades, CTE, community college, gap years, and military paths are presented with equal respect. Every student gets reach school suggestions regardless of GPA. First-generation students get proactive guidance on the hidden curriculum of college applications. Financial alternatives are always included alongside expensive options.
 
-**Parent access.** Parents can check timeline status and milestone progress. Essay brainstorming content and coaching notes (the counselor's private observations) are not shared with parents.
+**Parent access.** Parents can check timeline status and milestone progress. Essay brainstorming content and coaching notes (Beacon's private observations) are not shared with parents.
 
 ---
 
 ## Repository Structure
 
 ```text
-college-counselor-skill/
+beacon/
 ├── SKILL.md                            # Core skill -- rename to CLAUDE.md to activate
 ├── README.md                           # This file
 ├── VERSIONS.md                         # Version roadmap

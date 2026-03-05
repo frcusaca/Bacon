@@ -1,4 +1,4 @@
-# Version Roadmap
+# Beacon — Version Roadmap
 
 ## v1 (current)
 
