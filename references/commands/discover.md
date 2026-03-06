@@ -1,6 +1,6 @@
 # discover — Interest Discovery Workflow
 
-Load `references/elicitation-frameworks.md` for the full six-phase elicitation approach, framework summaries, question banks, MI techniques, and the "I Don't Know" protocol. Load `references/cross-cutting.md` for Motivational Interviewing voice and equity check.
+Load `references/elicitation-frameworks.md` for the full six-phase elicitation approach, framework summaries, question banks, MI techniques, and the "I Don't Know" protocol. Load `references/cross-cutting.md` for Motivational Interviewing voice and equity check. Load `references/counselor-styles.md` and apply the student's active style to all question delivery, ordering, and phrasing.
 
 This workflow uses a conversational approach grounded in Motivational Interviewing. Ask one question at a time. Wait for the student's response before asking the next. Attend to energy changes, not just content.
 

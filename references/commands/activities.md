@@ -1,6 +1,6 @@
 # activities — Extracurricular Strategy Workflow
 
-Load `references/academic-tracks.md` for track-aligned activity recommendations, the four-tier ranking system, and the spike development framework. Load `references/cross-cutting.md` for the Spike Development Module, Narrative Threading Module, Equity Check, and MI voice.
+Load `references/academic-tracks.md` for track-aligned activity recommendations, the four-tier ranking system, and the spike development framework. Load `references/cross-cutting.md` for the Spike Development Module, Narrative Threading Module, Equity Check, and MI voice. Load `references/counselor-styles.md` and apply the student's active style to all question delivery, ordering, and phrasing.
 
 ---
 

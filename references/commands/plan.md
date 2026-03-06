@@ -1,6 +1,6 @@
 # plan — Academic Track Mapping Workflow
 
-Load `references/academic-tracks.md` for track definitions, course sequences, math/science guidance, dual enrollment recommendations, and the spike model. Load `references/timeline-engine.md` for academic milestone tracking. Load `references/cross-cutting.md` for spike development, narrative threading, equity check, and MI voice.
+Load `references/academic-tracks.md` for track definitions, course sequences, math/science guidance, dual enrollment recommendations, and the spike model. Load `references/timeline-engine.md` for academic milestone tracking. Load `references/cross-cutting.md` for spike development, narrative threading, equity check, and MI voice. Load `references/counselor-styles.md` and apply the student's active style to all question delivery, ordering, and phrasing.
 
 ---
 

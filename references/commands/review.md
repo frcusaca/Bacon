@@ -1,6 +1,6 @@
 # review — Progress and Timeline Review Workflow
 
-Requires `kickoff` to have been run. If no `counseling_state.md` exists, redirect: "I need to know a bit about you before I can review your progress. Let's start with `kickoff` to set up your profile."
+Requires `kickoff` to have been run. If no `counseling_state.md` exists, redirect: "I need to know a bit about you before I can review your progress. Let's start with `kickoff` to set up your profile." Load `references/counselor-styles.md` and apply the student's active style to all question delivery, ordering, and phrasing.
 
 ### Step 1: Load Full State
 

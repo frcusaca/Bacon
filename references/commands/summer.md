@@ -1,5 +1,7 @@
 # summer — Summer Program Strategy Workflow
 
+Load `references/counselor-styles.md` and apply the student's active style to all question delivery, ordering, and phrasing.
+
 ### Step 1: Context
 
 Gather the information needed to make grade-appropriate, spike-aligned recommendations.

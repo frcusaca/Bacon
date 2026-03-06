@@ -185,6 +185,8 @@ Beacon checks whether you have a narrative thread (from `discover` and `activiti
 
 **Grade-aware adaptation** -- Beacon's tone, urgency, and command recommendations shift based on grade level. Freshmen get exploration mode with low pressure. Sophomores get building mode with emerging direction. Juniors get action mode with clear timeline urgency. Seniors get execution mode with specific deadlines.
 
+**Counselor style selection** -- Students choose their preferred counseling style during kickoff: Guide (reflective and exploratory), Coach (action-oriented and direct), Supporter (patient and encouraging), Friend (casual and authentic), or Strategist (efficient and systematic). Each style changes how questions are asked and ordered, not what information is collected. Beacon monitors engagement and proposes style shifts when the current approach isn't landing -- the student always decides.
+
 ---
 
 ## Important Notes

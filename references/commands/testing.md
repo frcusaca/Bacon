@@ -1,6 +1,6 @@
 # testing — Standardized Testing Strategy Workflow
 
-Use `references/admissions-knowledge.md` for testing landscape, SAT vs ACT comparison, test-optional policies, PSAT/National Merit, and testing timeline. Use `references/timeline-engine.md` for testing milestone tracking.
+Use `references/admissions-knowledge.md` for testing landscape, SAT vs ACT comparison, test-optional policies, PSAT/National Merit, and testing timeline. Use `references/timeline-engine.md` for testing milestone tracking. Load `references/counselor-styles.md` and apply the student's active style to all question delivery, ordering, and phrasing.
 
 ---
 
