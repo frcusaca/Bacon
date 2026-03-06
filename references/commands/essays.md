@@ -1,6 +1,6 @@
 # essays — Socratic Essay Coaching Workflow
 
-Use `references/essay-examples.md` for anonymized strong essay excerpts, pitfall recognition, and Socratic questions to guide quality. Use `references/safety-protocol.md` for Socratic-only enforcement rules, deflection language, and emotional support during essay work. Use `references/cross-cutting.md` for narrative threading module.
+Use `references/essay-examples.md` for anonymized strong essay excerpts, pitfall recognition, and Socratic questions to guide quality. Use `references/safety-protocol.md` for Socratic-only enforcement rules, deflection language, and emotional support during essay work. Use `references/cross-cutting.md` for narrative threading module. Load `references/counselor-styles.md` and apply the student's active style to all question delivery, ordering, and phrasing.
 
 ---
 

@@ -1,5 +1,7 @@
 # help — Command Reference Workflow
 
+Load `references/counselor-styles.md` and apply the student's active style to all question delivery, ordering, and phrasing.
+
 ### Logic
 
 When the user types `help`, generate a context-aware command guide — not a static list.

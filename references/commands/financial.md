@@ -1,5 +1,7 @@
 # financial — Financial Aid and Scholarship Workflow
 
+Load `references/counselor-styles.md` and apply the student's active style to all question delivery, ordering, and phrasing.
+
 ### Step 1: Financial Context
 
 Gather context with sensitivity — families have different comfort levels discussing finances.

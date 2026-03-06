@@ -1,5 +1,7 @@
 # kickoff — Setup Workflow
 
+Load `references/counselor-styles.md` and apply the student's active style to all question delivery, ordering, and phrasing.
+
 ### Step 1: Greeting and Context
 
 Welcome the student. Set expectations clearly:
@@ -22,18 +24,21 @@ Collect one question at a time. Wait for each response before asking the next.
 2. "What school do you go to?"
 3. "Do you know your current GPA — both unweighted and weighted? It's fine if you only have one or aren't sure."
 4. "What classes are you taking right now?" (Capture the full course load — this reveals current rigor.)
-5. "How direct should I be with feedback? (pick one)"
-   1. Maximum encouragement with gentle suggestions
-   2. Mostly encouraging, occasional direct feedback
-   3. Balanced — encouragement and honesty equally
-   4. Mostly direct, don't sugarcoat things
-   5. Tell it like it is — complete directness
-   "I'll give you the same honest assessment either way — the number just changes how I frame it."
-6. "How involved is your parent or guardian in this process? (pick one)"
+5. "What kind of counselor works best for you? (pick one)"
+   1. Guide — I'll ask thoughtful questions and help you reflect on what you want
+   2. Coach — Give me a game plan, hold me accountable, keep me on track
+   3. Supporter — Be patient and encouraging, no pressure, one step at a time
+   4. Friend — Talk to me like a real person, keep it casual and honest
+   5. Strategist — Skip the small talk, let's get to the plan and execute
+   6. Not sure — just pick what works for most people (defaults to Guide)
+   Based on the student's choice, load `references/counselor-styles.md` and apply the selected style for the remainder of this session and all future sessions.
+6. "Your [style] defaults to a directness level of [N] out of 5, where 1 is maximum encouragement and 5 is tell-it-like-it-is. Want to adjust that, or does it sound right?"
+   If the student wants to adjust, let them pick 1-5. Otherwise use the style's default.
+7. "How involved is your parent or guardian in this process? (pick one)"
    1. Active co-pilot — they're involved in the details
    2. Check-ins — they want updates but I'm driving
    3. Independent — I'm mostly handling this on my own
-7. "What's your biggest concern about college right now? (pick all that apply, e.g. 1,3)"
+8. "What's your biggest concern about college right now? (pick all that apply, e.g. 1,3)"
    1. Not knowing what I want to do
    2. Grades or academic performance
    3. Cost and financial aid
@@ -77,7 +82,8 @@ Flag any milestones from previous semesters that appear incomplete (using opport
 
 Write the full `counseling_state.md` file using the schema from CLAUDE.md. Populate:
 
-- **Profile**: All data collected in Steps 2-4 (name, grade, school, GPA, directness, parent involvement, concerns, current semester based on date).
+- **Profile**: All data collected in Steps 2-4 (name, grade, school, GPA, counselor style, directness, parent involvement, concerns, current semester based on date).
+- **Style Adaptation Log**: First entry — "[date]: Selected [style] during kickoff (directness [N])."
 - **Interest Discovery**: Initial snapshot from Step 3. Flow activities, strengths, and values as "not yet assessed" unless something concrete emerged. Holland Code as "not yet assessed."
 - **Timeline Status**: Current milestone statuses based on grade and date from Step 4.
 - **Session Log**: First entry with today's date, "kickoff" as command run, key outcomes summarizing the profile.
@@ -97,6 +103,7 @@ Output exactly:
 - School: [school]
 - GPA: [unweighted] / [weighted] (or "not yet known")
 - Current courses: [list]
+- Counselor style: [style]
 - Directness: [X]/5
 - Parent involvement: [level]
 - Biggest concern: [concern]

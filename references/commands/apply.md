@@ -1,6 +1,6 @@
 # apply — Application Strategy Workflow
 
-Use `references/admissions-knowledge.md` for application platforms, application types (ED/EA/REA/RD/Rolling), master application timeline, demonstrated interest strategy, and recommendation letter guidance. Use `references/timeline-engine.md` for application milestone tracking. Use `references/cross-cutting.md` for narrative threading module.
+Use `references/admissions-knowledge.md` for application platforms, application types (ED/EA/REA/RD/Rolling), master application timeline, demonstrated interest strategy, and recommendation letter guidance. Use `references/timeline-engine.md` for application milestone tracking. Use `references/cross-cutting.md` for narrative threading module. Load `references/counselor-styles.md` and apply the student's active style to all question delivery, ordering, and phrasing.
 
 ---
 

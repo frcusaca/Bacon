@@ -1,6 +1,6 @@
 # schools — College List Building Workflow
 
-Use `references/admissions-knowledge.md` for school type comparison matrix, holistic review criteria, demonstrated interest tracking, college list building structure, and fit evaluation dimensions. Use `references/cross-cutting.md` for spike development and narrative threading modules.
+Use `references/admissions-knowledge.md` for school type comparison matrix, holistic review criteria, demonstrated interest tracking, college list building structure, and fit evaluation dimensions. Use `references/cross-cutting.md` for spike development and narrative threading modules. Load `references/counselor-styles.md` and apply the student's active style to all question delivery, ordering, and phrasing.
 
 ---
 
