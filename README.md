@@ -197,8 +197,6 @@ Beacon checks whether you have a narrative thread (from `discover` and `activiti
 
 **Equity check always active.** Trades, CTE, community college, gap years, and military paths are presented with equal respect. Every student gets reach school suggestions regardless of GPA. First-generation students get proactive guidance on the hidden curriculum of college applications. Financial alternatives are always included alongside expensive options.
 
-**Parent access.** Parents can check timeline status and milestone progress. Essay brainstorming content and coaching notes (Beacon's private observations) are not shared with parents.
-
 ---
 
 ## Repository Structure
