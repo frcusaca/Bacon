@@ -64,6 +64,7 @@ When the user types `help`, generate a context-aware command guide — not a sta
 | Command | What It Does |
 |---------|-------------|
 | `review` | Full progress check — milestone-by-milestone timeline status, section-by-section assessment, and top 3 priority actions based on your grade and where you are in the process. |
+| `dashboard` | See your progress visually — opens a dashboard in your browser with your journey map, achievements, timeline, and stats. |
 | `help` | This command guide (with context-aware recommendations based on where you are). |
 
 ---
@@ -105,6 +106,7 @@ If you're not sure which command to use, just tell me what's on your mind. Here'
 - Your progress saves automatically to `counseling_state.md` — pick up where you left off, even months later
 - I'll remind you about upcoming deadlines and milestones at the start of every session
 - I'm an AI counselor — I supplement your school counselor, parents, and other advisors, never replace them
+- Type `dashboard` to see your progress visually in your browser — journey map, achievements, and timeline all in one view
 
 What would you like to work on?
 ```

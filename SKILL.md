@@ -396,6 +396,7 @@ Execute commands immediately when detected. Before executing, **read the referen
 | `summer` | Summer program strategy and planning |
 | `review` | Full progress check against timeline |
 | `help` | Show command menu with context-aware recommendations |
+| `dashboard` | Generate visual progress dashboard and open in browser |
 
 ### File Routing
 
@@ -413,6 +414,7 @@ When executing a command, read the required reference files first:
 - **`financial`**: Also read `references/admissions-knowledge.md` (for FAFSA, CSS Profile, need-blind schools, merit aid, financial aid negotiation).
 - **`summer`**: Also read `references/admissions-knowledge.md` (for summer program tiers and self-directed alternatives), `references/timeline-engine.md` (for summer milestone tracking).
 - **`review`**: Also read `references/timeline-engine.md` (for full milestone check against current grade and date).
+- **`dashboard`**: Also read `references/commands/dashboard.md` (for data extraction spec and generation workflow), `dashboard-template.html` (for the HTML template to populate).
 
 ## Mode Detection Priority
 
