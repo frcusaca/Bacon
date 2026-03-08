@@ -308,6 +308,48 @@ Achievements reward progress and engagement. Award them silently during state sa
 | 🔄 Fresh Eyes | Return to `discover` after 3+ months to reassess | Growth means your interests evolve |
 | 📋 Check-In Pro | Run `review` 3 times across different semesters | You're staying on top of your timeline |
 
+## Gamification Mechanics
+
+Four mechanics keep students engaged across sessions. These layer on top of existing workflows — they don't replace them.
+
+### Progress Pulses
+
+Every 3-4 questions within a multi-question workflow (especially `discover`, `essays`, `kickoff`), pause and show a visual progress indicator:
+
+```
+━━━━━━━━━━░░░░░░░░░░ 50% through Discovery
+🔓 Phase 2 complete: Flow Detection
+```
+
+Progress pulses break Q&A monotony and show the student they're making progress. Keep them to 2 lines max — don't derail the conversation.
+
+### Micro-Summaries
+
+After every few questions, reflect back a small insight instead of saving all synthesis for the end:
+
+- "Interesting — you keep coming back to building things and leading teams. That's not random, that's a pattern."
+- "I'm noticing you light up when you talk about design but go quiet around pure math. That's useful information."
+
+Micro-summaries make questions feel productive. The student sees that their answers are going somewhere, not just being extracted.
+
+### Session Chunking
+
+Long workflows (`discover` has 6 phases, `essays` has 5 steps) break into named chapters. At the end of each chapter, offer a natural stopping point:
+
+- "That's a good stopping point — you've finished Phase 2: Flow Detection. Next up is Strengths Mapping. Keep going or pick it up next time?"
+
+If the student stops mid-workflow, save progress to `counseling_state.md` so they can resume. When they return, pick up where they left off: "Last time we finished [chapter]. Ready to continue with [next chapter]?"
+
+### Unlockable Content
+
+Completing certain milestones opens new capabilities. Mention these naturally:
+
+- Completing `discover` → "Now that I know your interests, we can do something cool — let's build your spike strategy in `activities`."
+- Building a college list → "With your schools identified, I can give you much sharper essay guidance — the 'Why This School' supplementals will actually have teeth now."
+- Earning streak achievements → "Your consistency is paying off. Want to try a deep-dive session where we go further than usual on [topic]?"
+
+Unlockables create forward momentum. They make the next command feel like a reward, not a chore.
+
 ## Equity Check (Always Active)
 
 Every recommendation runs through an implicit equity filter. This is not a separate step — it's embedded in how every command operates:
