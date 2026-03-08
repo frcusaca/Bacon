@@ -234,19 +234,21 @@ Last updated: [date]
 ### State Update Triggers
 
 Write to `counseling_state.md` whenever:
-- `kickoff` creates a new profile and initializes all sections. Populates Profile from onboarding questions (including counselor style and directness). Initializes empty sections: Interest Discovery, Academic Track, Activities & Spike, Testing, College List, Essays, Financial, Summer Experiences, Recommendations, Timeline Status, Session Log, Coaching Notes, Style Adaptation Log.
-- `discover` updates Interest Discovery section (Holland Code results, flow activities, strengths, values, interest evolution log).
-- `plan` updates Academic Track section (primary track, secondary interests, current course load, planned course sequence, GPA trajectory).
-- `activities` updates Activities & Spike section (spike areas, activity list, leadership positions, activity gaps).
-- `testing` updates Testing section (practice scores, official scores, test preference, target score range, prep plan, AP exams).
-- `schools` updates College List section (adds/modifies schools in reach/match/safety categories with type, fit notes, financial estimates).
-- `essays` updates Essays section (Socratic Q&A notes added to brainstorming notes, status changes, narrative thread refinement). Never stores student-written content — only counselor observations and Socratic guidance notes.
-- `apply` updates College List strategies (ED/EA/RD per school), Recommendations section, and Timeline Status for application-related milestones.
-- `financial` updates Financial section (FAFSA status, CSS Profile status, net price estimates, scholarship list, EFC/SAI, financial context).
-- `summer` updates Summer Experiences section (activity, description, connection to spike for the relevant year).
-- `review` updates Timeline Status (milestone statuses refreshed against current date), Active Counseling Strategy (reassess focus based on progress), Coaching Notes (observations from progress review).
+- `kickoff` creates a new profile and initializes all sections. Populates Profile from onboarding questions (including counselor style and directness). Initializes empty sections: Interest Discovery, Academic Track, Activities & Spike, Testing, College List, Essays, Financial, Summer Experiences, Recommendations, Timeline Status, Session Log, Coaching Notes, Style Adaptation Log. Award achievement: 🚀 Launched.
+- `discover` updates Interest Discovery section (Holland Code results, flow activities, strengths, values, interest evolution log). Check achievement: 🧬 Interest DNA (all 6 phases complete, Holland Code assessed, flow activities + strengths + values all listed).
+- `plan` updates Academic Track section (primary track, secondary interests, current course load, planned course sequence, GPA trajectory). Check achievement: 📐 Track Set (primary track chosen and course sequence planned).
+- `activities` updates Activities & Spike section (spike areas, activity list, leadership positions, activity gaps). Check achievement: 🎯 Spike Found (spike area identified). Check ⬆️ Level Up (any activity at State tier) and 🏆 Top Tier (any activity at National tier).
+- `testing` updates Testing section (practice scores, official scores, test preference, target score range, prep plan, AP exams). Check achievement: 📊 Score Check (testing strategy complete with preference set and prep plan or scores).
+- `schools` updates College List section (adds/modifies schools in reach/match/safety categories with type, fit notes, financial estimates). Check achievement: 🏫 List Built (all 3 categories — reach, match, safety — populated).
+- `essays` updates Essays section (Socratic Q&A notes added to brainstorming notes, status changes, narrative thread refinement). Never stores student-written content — only counselor observations and Socratic guidance notes. Check achievement: 📝 Story Seed (personal statement theme identified). Check ✍️ Draft Done (personal statement status is "drafting" or beyond).
+- `apply` updates College List strategies (ED/EA/RD per school), Recommendations section, and Timeline Status for application-related milestones. Check achievement: 📬 App Ready (application strategies set for schools).
+- `financial` updates Financial section (FAFSA status, CSS Profile status, net price estimates, scholarship list, EFC/SAI, financial context). Check achievement: 💰 Money Smart (financial aid strategy complete, FAFSA status not "not started").
+- `summer` updates Summer Experiences section (activity, description, connection to spike for the relevant year). Check achievement: ☀️ Summer Planned (summer experiences table has entries).
+- `review` updates Timeline Status (milestone statuses refreshed against current date), Active Counseling Strategy (reassess focus based on progress), Coaching Notes (observations from progress review). Check achievement: 📋 Check-In Pro (review run 3+ times across different semesters).
 - Any command that reveals a shift in the student's focus, approach, or strategy → Active Counseling Strategy. When updating Active Counseling Strategy, always preserve Previous approaches — move the old approach there before writing the new one.
 - Any session where the student reveals preferences, emotional patterns, family dynamics, or engagement patterns → Coaching Notes.
+- **`discover` (returning)**: If the student runs `discover` and their last discovery session was 3+ months ago, award achievement: 🔄 Fresh Eyes.
+- **Narrative thread check**: When updating the narrative thread in the Essays section, check if spike + courses + activities + essays are all connected. If so, award achievement: 🎓 Full Picture.
 - **All commands (session stats and achievements)**: After every command execution, update Session Stats (increment total sessions by 1, update streak based on whether last session date was within 14 days — if yes increment current streak, if no reset to 1, update longest streak if current exceeds it, update last session date to today). Check achievement conditions and award any newly earned achievements to the Achievements section. Never remove earned achievements.
 
 ---
