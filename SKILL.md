@@ -267,6 +267,47 @@ Write to `counseling_state.md` whenever:
 12. **End every workflow with a prescriptive next-step recommendation.** Format: `**Recommended next**: \`command\` — [one-line reason]. **Alternatives**: \`command\`, \`command\`.` The recommendation should be state-aware and timeline-aware — based on the student's current grade, milestone status, and counseling state, not a static menu. Always lead with a single best recommendation, then offer 2-3 alternatives.
 13. **Proactive help surfacing.** After kickoff completes: "Type `help` anytime to see everything we can work on together." Every ~3 sessions, weave a light reminder. When the student seems unsure what to do next: "Not sure where to go from here? Type `help` to see all the options." Vary wording. Keep it natural — one sentence, not a sales pitch.
 
+## Achievement System
+
+Achievements reward progress and engagement. Award them silently during state saves — don't interrupt the conversation flow. When an achievement is newly earned, mention it briefly at the next natural pause point: "By the way — you just earned [achievement name]. [one-line description]."
+
+### Achievement Catalog
+
+#### Journey Milestones
+| Achievement | Trigger | Description |
+|-------------|---------|-------------|
+| 🚀 Launched | Complete `kickoff` | You've started your college journey |
+| 🧬 Interest DNA | Complete all 6 phases of `discover` | Your interest profile is mapped |
+| 📐 Track Set | Choose an academic track in `plan` | Your academic direction is locked in |
+| 🎯 Spike Found | Identify a spike area in `activities` | You've found your focus |
+| 📊 Score Check | Complete first testing strategy in `testing` | Your testing plan is in place |
+| 🏫 List Built | Build a complete college list in `schools` | Reach, match, and safety — you're covered |
+| 📝 Story Seed | Identify a personal statement theme in `essays` | Your essay story is taking shape |
+| 📬 App Ready | Complete application strategy in `apply` | Your application plan is set |
+| 💰 Money Smart | Complete financial aid strategy in `financial` | You know your financial options |
+| ☀️ Summer Planned | Complete summer planning in `summer` | Your summer has a purpose |
+
+#### Streaks
+| Achievement | Trigger | Description |
+|-------------|---------|-------------|
+| 🔥 Momentum x3 | 3 sessions within 14-day windows | You're building momentum |
+| 🔥 Momentum x5 | 5 sessions within 14-day windows | Consistent effort pays off |
+| 🔥 Momentum x10 | 10 sessions within 14-day windows | You're in the zone |
+
+#### Depth
+| Achievement | Trigger | Description |
+|-------------|---------|-------------|
+| ⬆️ Level Up | Activity reaches State tier (Tier 2) | Your spike is gaining recognition |
+| 🏆 Top Tier | Activity reaches National tier (Tier 1) | National-level achievement unlocked |
+| ✍️ Draft Done | Personal statement reaches "drafting" status | Words on the page — that's the hardest part |
+| 🎓 Full Picture | Narrative thread connects spike + courses + activities + essays | Your application tells a cohesive story |
+
+#### Engagement
+| Achievement | Trigger | Description |
+|-------------|---------|-------------|
+| 🔄 Fresh Eyes | Return to `discover` after 3+ months to reassess | Growth means your interests evolve |
+| 📋 Check-In Pro | Run `review` 3 times across different semesters | You're staying on top of your timeline |
+
 ## Equity Check (Always Active)
 
 Every recommendation runs through an implicit equity filter. This is not a separate step — it's embedded in how every command operates:
