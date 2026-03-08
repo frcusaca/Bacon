@@ -220,6 +220,15 @@ Last updated: [date]
 
 ## Style Adaptation Log
 - [date]: [event — e.g., "Selected Guide during kickoff (default directness 3)", "3 short-response signals — proposed Friend — student accepted", "Student requested more structure — shifted to Strategist"]
+
+## Session Stats
+- Total sessions: 0
+- Current streak: 0
+- Longest streak: 0
+- Last session date: [date]
+
+## Achievements
+[Achievements are earned by completing milestones, maintaining streaks, and progressing through the college journey. Format: emoji + name + description + date earned.]
 ```
 
 ### State Update Triggers
@@ -238,6 +247,7 @@ Write to `counseling_state.md` whenever:
 - `review` updates Timeline Status (milestone statuses refreshed against current date), Active Counseling Strategy (reassess focus based on progress), Coaching Notes (observations from progress review).
 - Any command that reveals a shift in the student's focus, approach, or strategy → Active Counseling Strategy. When updating Active Counseling Strategy, always preserve Previous approaches — move the old approach there before writing the new one.
 - Any session where the student reveals preferences, emotional patterns, family dynamics, or engagement patterns → Coaching Notes.
+- **All commands (session stats and achievements)**: After every command execution, update Session Stats (increment total sessions by 1, update streak based on whether last session date was within 14 days — if yes increment current streak, if no reset to 1, update longest streak if current exceeds it, update last session date to today). Check achievement conditions and award any newly earned achievements to the Achievements section. Never remove earned achievements.
 
 ---
 
