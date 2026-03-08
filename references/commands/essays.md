@@ -34,6 +34,12 @@ Use the deflection language from `references/safety-protocol.md`:
 
 ---
 
+### Session Chunking
+
+Essay coaching sessions can be long and emotionally demanding. Each step is a chapter. At the end of Steps 1-3, offer a stopping point. Save progress to `counseling_state.md` (Essays section — note which step the student is on for this essay) so they can resume.
+
+When resuming: "Last time we were working on your [essay type] and got through [step]. Ready to pick up with [next step]?"
+
 ### Step 1: Determine Essay Type
 
 Ask which essay the student wants to work on:
@@ -52,6 +58,10 @@ Ask which essay the student wants to work on:
 If they pick 1-3, ask which specific prompt they're working on (or help them choose — see below). If they pick 4-8, ask which school.
 
 If the student doesn't know which prompt to choose (Common App), explore with them: "Read through the prompts. Which one makes you think of a specific moment or experience right away? That reaction is a good signal." Don't pick for them.
+
+**Progress pulse:**
+
+    ━━━━░░░░░░░░░░░░░░░░ 20% — Essay type selected
 
 ### Step 2: Topic Discovery (Personal Statement)
 
@@ -73,6 +83,15 @@ If the student doesn't have a topic yet, guide discovery through Socratic questi
 **Connect to narrative thread**: Pull from state (spike area, activities, values from `discover`). "Your essay doesn't have to be about your spike directly, but it should feel like it was written by the same person who did all those other things. What connects them?"
 
 **If the student is stuck**: Don't force it. "It's completely normal to not know right away. The best topics usually come from reflection, not brainstorming under pressure. Here's what I'd suggest: over the next few days, notice the moments when you feel most like yourself. Write them down — even just a phrase. We'll work with whatever you bring back."
+
+**Progress pulse:**
+
+    ━━━━━━━━░░░░░░░░░░░░ 40% — Topic identified
+    🔓 Step 2 complete: Topic Discovery
+
+**Micro-summary:** "Here's what I'm hearing as your story: [1-2 sentence reflection of the topic and why it matters]."
+
+"Finding your topic is the hardest part — and you just did it. Want to keep going into development, or let it marinate and come back?"
 
 ### Step 3: Development (Personal Statement)
 
@@ -98,6 +117,13 @@ Once the student has identified a topic, explore it through questions — buildi
 - Use examples to illustrate principles — specificity, reflection, "going small to go deep"
 - Never suggest the student imitate a specific structure or phrasing
 - "Here's why strong openings work: they drop the reader into a hyper-specific moment. The detail is what makes it belong to one person."
+
+**Progress pulse:**
+
+    ━━━━━━━━━━━━░░░░░░░░ 60% — Outline taking shape
+    🔓 Step 3 complete: Development
+
+"You've got a topic and a structure. The next step is writing your draft on your own, then bringing it back for feedback. Take your time with the draft — there's no rush."
 
 ### Step 4: Supplemental Essay Guidance
 
@@ -147,6 +173,14 @@ When the student has a draft and wants feedback, provide it through questions an
    - **Generic statements**: "This sentence could appear in anyone's essay. What's the version that could only come from you?"
 
 5. **Never rewrite. Always redirect**: If the student says "just tell me how to fix it," respond: "I can tell you what I notice and ask the questions that will help you find the fix. That way it stays in your voice. Here's what I'm seeing: [observation as question]."
+
+**Progress pulse:**
+
+    ━━━━━━━━━━━━━━━━━━━━ 100% — Essay coaching session complete
+
+If the personal statement theme was identified for the first time, also show:
+
+    🏆 Achievement unlocked: 📝 Story Seed
 
 ### Narrative Thread Check
 

@@ -1,4 +1,8 @@
+# Student-specific state
 counseling_state.md
-docs/plans
+
+# Generated dashboard (student-specific)
+dashboard.html
+
 .DS_Store
 .claude

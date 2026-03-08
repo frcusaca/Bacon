@@ -47,6 +47,11 @@ Collect one question at a time. Wait for each response before asking the next.
    6. Getting into a specific school
    7. Something else — tell me what
 
+**Progress pulse:**
+
+    ━━━━━━━━━━░░░░░░░░░░ 50% through Kickoff
+    🔓 Profile complete
+
 ### Step 3: Initial Interest Snapshot
 
 Load `references/elicitation-frameworks.md` Phase 1 (Warm-Up and Rapport). This is a lightweight preview — the full discovery is the `discover` command. Ask 2-3 warm-up questions to capture an initial sense of the student's interests.
@@ -77,6 +82,11 @@ Based on the student's grade level, load `references/timeline-engine.md` and pre
 - **Senior (12th):** "You're in execution mode. The focus now is applications, essays, financial aid, and — when decisions arrive — making a choice you feel good about."
 
 Flag any milestones from previous semesters that appear incomplete (using opportunity framing, never deficit language).
+
+**Progress pulse:**
+
+    ━━━━━━━━━━━━━━━━━━━━ 100% Kickoff Complete!
+    🏆 Achievement unlocked: 🚀 Launched
 
 ### Step 5: Initialize counseling_state.md
 
@@ -119,6 +129,8 @@ Output exactly:
 [Grade-appropriate recommendation for what to work on first, with brief explanation of why]
 
 **Recommended next**: `[command]` — [reason based on grade and profile]. **Alternatives**: `[command]`, `[command]`, `help`
+
+💡 **Tip**: Type `dashboard` anytime to see your progress visually in a browser.
 ```
 
 ### Time-Aware Branching Logic
